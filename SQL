@@ -1,0 +1,21 @@
+SQL
+
+_______SELECT
+select title, publication_year from books
+
+_______ORDER BY
+select * from books
+order by price desc
+
+_______SELECT DISTINCT AND LIMIT
+select distinct 
+genre
+from books
+order by genre asc 
+limit 5
+
+_______COUNT()
+select COUNT (id)
+from employees
+
+_______
